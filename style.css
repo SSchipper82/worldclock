@@ -12,6 +12,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 36px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
 .city {
   display: flex;
   justify-content: space-between;
@@ -41,20 +54,6 @@ h2 {
 .time small {
   font-size: 18px;
   vertical-align: middle;
-}
-
-select {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-h1 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 36px;
 }
 
 footer {
